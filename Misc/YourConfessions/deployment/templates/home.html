@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>All Confessions</h1>
+<form action='/add_confession' method='POST' class='mb-3'>
+    {% if session['user_id'] %}
+        <textarea name='content' class='form-control' placeholder='Write your confession...' rows='4' required></textarea>
+        <button type='submit' class='btn btn-primary mt-2'>Add Confession</button>
+    {% else %}
+        <p class='text-muted'>Log in to add your confession.</p>
+    {% endif %}
+</form>
+<ul class='list-group'>
+    {% for confession in confessions %}
+        <li class='list-group-item'>{{ confession.content }}</li>
+    {% else %}
+        <li class='list-group-item'>No confessions yet!</li>
+    {% endfor %}
+</ul>
+{% endblock %}
