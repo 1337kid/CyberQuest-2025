@@ -7,7 +7,6 @@ import os
 
 load_dotenv()
 
-
 app = Flask(__name__)
 app.secret_key = os.getenv('APP_SECRET_KEY')
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('SQLALCHEMY_DATABASE_URI')
@@ -104,3 +103,7 @@ def vulnerable():
         return f"<pre>Health Check Result:\n{result}</pre>", 200
     except subprocess.CalledProcessError as e:
         return f"Command failed: {e}", 400
+
+@app.route("/healthcheck")
+def healthcheck():
+    return "ok", 200
