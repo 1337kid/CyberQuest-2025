@@ -24,8 +24,8 @@ class Confession(db.Model):
     content = db.Column(db.Text, nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
 
-with app.app_context():
-    db.create_all()
+#with app.app_context():
+#    db.create_all()
 
 @app.route('/')
 def index():
