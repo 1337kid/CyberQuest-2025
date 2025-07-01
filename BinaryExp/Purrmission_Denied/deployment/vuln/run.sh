@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-socat TCP-LISTEN:1337,fork EXEC:/vuln/chall,pty,stderr
+socat TCP-LISTEN:1337,reuseaddr,fork EXEC:"/vuln/chall",stderr

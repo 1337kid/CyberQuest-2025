@@ -23,7 +23,7 @@ Medium
 
 ### Flag
 ```
-cyberQuest{Bru73f0rc3_15_fun_d9778912f00b054se0c6cbb2768aea895}
+cyberQuest{U53_fg375_br0_3d33044b69d6314e6cb6f6924126d144}
 ```
 
 ### Points
