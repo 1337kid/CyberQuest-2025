@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Join Anonymous</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+      function XMLFunction() {
+        var xml =
+          "" +
+          '<?xml version="1.0" encoding="UTF-8"?>' +
+          "<root>" +
+          "<name>" +
+          $("#name").val() +
+          "</name>" +
+          "<email>" +
+          $("#email").val() +
+          "</email>" +
+          "</root>";
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function () {
+          if (xmlhttp.readyState == 4) {
+            console.log(xmlhttp.readyState);
+            console.log(xmlhttp.responseText);
+            document.getElementById("errorMessage").innerHTML =
+              xmlhttp.responseText;
+          }
+        };
+        xmlhttp.open("POST", "notify.php", true);
+        xmlhttp.send(xml);
+      }
+    </script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: #e0e0e0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      center {
+        text-align: center;
+      }
+
+      center p {
+        font-size: 1.2rem;
+      }
+
+      img {
+        max-width: 300px;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 2rem;
+        color: #919191;
+      }
+
+      #registration {
+        background-color: #1e1e1e;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      fieldset {
+        border: none;
+      }
+
+      p {
+        margin: 15px 0;
+      }
+
+      label {
+        display: block;
+        font-size: 1rem;
+        margin-bottom: 5px;
+      }
+
+      input.text {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #333;
+        border-radius: 4px;
+        background-color: #2e2e2e;
+        color: #e0e0e0;
+        font-size: 1rem;
+      }
+
+      input.text:focus {
+        outline: none;
+        border-color: #919191;
+        box-shadow: 0 0 5px #919191;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 4px;
+        background-color: #919191;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #414141;
+      }
+
+      #errorMessage {
+        margin-top: 15px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <img src="img/logo.png" alt="Logo" />
+      <p>We are a decentralized international hacktivist collective</p>
+      <p>We are Anonymous.</p> 
+      <p>We are Legion. </p>
+      <p>We do not forgive.</p>
+      <p>We do not forget.</p>
+      <h2><b>Join Us</b></h2>
+      <div id="registration">
+        <div id="RegisterUserForm">
+          <fieldset>
+            <p>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" class="text" value="" />
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                class="text"
+                value=""
+              />
+            </p>
+            <p>
+              <button id="registerNew" onclick="XMLFunction()">Notify Us</button>
+            </p>
+          </fieldset>
+        </div>
+      </div>
+      <div id="errorMessage"></div>
+    </center>
+  </body>
+</html>
