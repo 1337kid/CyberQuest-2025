@@ -29,10 +29,6 @@ cyberQuest{H1_H0w_ar3_y0u_t0d4y_8f7044571ecf696350da0b4b0cc0a493}
 []
 ```
 
-#### Timely Hour Bonus (Optional)
-```
-[]
-```
 
 ### Handout Text (Optional)
 ```

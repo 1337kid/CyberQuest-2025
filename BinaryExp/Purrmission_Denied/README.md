@@ -37,11 +37,6 @@ cyberQuest{U53_fg375_br0_3d33044b69d6314e6cb6f6924126d144}
 []
 ```
 
-#### Timely Hour Bonus (Optional)
-```
-[]
-```
-
 ### Handout Text (Optional)
 ```
 nc MACHINE_IP 1337

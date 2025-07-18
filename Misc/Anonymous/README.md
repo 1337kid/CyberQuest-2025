@@ -33,10 +33,6 @@ cyberQuest{7h15_m1m3_15_4_cr1m3_ca7fff717c069d24a018b15d3d103620}
 [50,35,20]
 ```
 
-#### Timely Hour Bonus (Optional)
-```
-[]
-```
 
 ### Handout Text (Optional)
 ```

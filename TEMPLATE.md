@@ -15,7 +15,7 @@ Very Easy | Easy | Medium | Hard
 
 ### Flag
 ```
-cyberQuest{leet.speek.text_MD5.SUM}
+cyberQuest{leet.speak.text_MD5.SUM}
 ```
 
 ### Points
@@ -25,11 +25,6 @@ cyberQuest{leet.speek.text_MD5.SUM}
 ```
 
 #### Submit Order Bonus (Optional)
-```
-[]
-```
-
-#### Timely Hour Bonus (Optional)
 ```
 []
 ```
