@@ -7,6 +7,7 @@ void shell() {
 }
 
 int main() {
+    setbuf(stdout, NULL);
     int tmp = 1234;
     char text[20];
     printf("Why are you here?\n");
