@@ -1,0 +1,44 @@
+### Challenge Name
+```
+The Whispering Cipher
+```
+
+### Challenge Description
+```
+To unravel the whistleblower's note, you must listen closely to the whispers of cryptographic history. Each hint peels back a layer of the puzzle.
+
+Hint 1: The Envelope ✉️
+The first layer is a common text encoding method, often marked by = symbols at the end.
+
+Hint 2: The Classic Lock 格子
+Next, look for a historic cipher that uses a repeating keyword to create multiple letter shifts.
+
+Hint 3: The Simple Key 🔑
+The secret keyword is a common term in the world of cryptography; think about the very subject of the puzzle.
+```
+
+### Difficulty
+```
+Medium
+```
+
+### Flag
+```
+cyberQuest{71881abb58e62116896d0e867b7285a4}
+```
+
+### Points
+#### Base Points
+```
+200
+```
+
+#### Submit Order Bonus (Optional)
+```
+[50,30,10]
+```
+
+### Handout Text (Optional)
+```
+O3pyT2bwOrPfRM9CF20oFa==
+```
