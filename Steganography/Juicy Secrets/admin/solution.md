@@ -29,5 +29,5 @@ If using Kali Linux, try zsteg (for PNG):
 
 The output from zsteg reveals a hidden ASCII string using the red channel’s least significant bit:
 ```bash
-b1,r,lsb,xy: "CTF{juice_box_secret_flag}"
+b1,r,lsb,xy: "cyberQuest{n0_pulp_0nly_fl4g_7a52e1dcb82d099bd9a1fc540df5a61e}"
 ```
