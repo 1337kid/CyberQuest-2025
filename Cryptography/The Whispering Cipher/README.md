@@ -24,7 +24,8 @@ Medium
 
 ### Flag
 ```
-cyberQuest{fee5ada4231f7caa207bf6e87d791b59}
+cyberQuest{3xc3l_2025_@_m3c
+_fee5ada4231f7caa207bf6e87d791b59}
 ```
 
 ### Points
@@ -40,5 +41,5 @@ cyberQuest{fee5ada4231f7caa207bf6e87d791b59}
 
 ### Handout Text (Optional)
 ```
-O3pyT2bwOrPfRM9CF20oFa==
+ZWdxbHZId21oYXszYnQzbl8yMDI1X0BfdTNyCl9taXY1Y2xwNDIzMW03Z3JjMjA3anU2bDg3aDc5MXM1OX0=
 ```
