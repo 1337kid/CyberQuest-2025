@@ -44,7 +44,7 @@ Plan:
 
 ### Exploit Code
 
-We can use Pwn Tools to write the exloit
+We can use Pwn Tools to write the exploit
 
 ```python
 from pwn import *
