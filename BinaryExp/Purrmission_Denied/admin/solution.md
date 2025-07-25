@@ -1,6 +1,6 @@
 ## Solution
 
-To analyze the binary, we use [Cutter](https://github.com/rizinorg/cutter).
+To analyse the binary, we use [Cutter](https://github.com/rizinorg/cutter).
 
 ## Analysis
 
