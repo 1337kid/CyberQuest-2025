@@ -18,7 +18,7 @@ Can you trick the system into believing you're part of the clowder?
 
 ### Difficulty
 ```
-Easy
+Medium
 ```
 
 ### Flag
@@ -29,7 +29,7 @@ cyberQuest{U53_fg375_br0_3d33044b69d6314e6cb6f6924126d144}
 ### Points
 #### Base Points
 ```
-100
+200
 ```
 
 #### Submit Order Bonus (Optional)
