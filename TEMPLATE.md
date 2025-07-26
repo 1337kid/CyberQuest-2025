@@ -1,7 +1,7 @@
 ### Challenge Name
 ```
 Challenge Name
-```Clumsy cat'''
+```
 
 ### Challenge Descrition
 ```
