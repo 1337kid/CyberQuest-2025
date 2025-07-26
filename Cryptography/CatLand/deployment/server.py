@@ -39,7 +39,7 @@ INFO = """
 """
 
 PROMPT = """
-\033[93m[!] Submit the one time password to prove you are a CatLandian: \033[0m"""
+\033[93m[!] Submit the one time password to prove you are a CatLandian [catland-XXX......XXX]: \033[0m"""
 
 def get_ist_timestamp():
     ist = pytz.timezone('Asia/Kolkata')
