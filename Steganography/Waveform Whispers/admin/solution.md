@@ -9,6 +9,7 @@ Could it be hiding something? Let’s inspect it closely. There might be more th
 ##  Step 1: Open the audio in a spectrogram viewer
 
 Tools like Audacity/Sonic Visualiser allow you to view audio spectrograms:
+
 In audacity: 
 - File → Import → Audio
 - At the track name, click the dropdown → Spectrogram View
