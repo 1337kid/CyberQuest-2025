@@ -1,4 +1,4 @@
-## CatLand Solution
+P## CatLand Solution
 
 ```
 nc 34.93.135.171 12345
@@ -14,7 +14,7 @@ Decoding the enocded OTP gives random bytes. Here they have provided a hint
 
 Now we know the OTP starts with the text "catland-". So with this knowledge, we can try to get the key.
 
-```ipython
+```python3
 In [1]: import base64
 
 In [2]: base64.b64decode("BwgEKBk4AkRjDAxdIhQ3DRAaEAweKwp7ExlQFggUIQt7DwdEBxsZNAw/CQc=")
@@ -25,7 +25,7 @@ There is less chance the encrytion used could be caesar or vigenere. So the next
 
 Since we know the beginning of the OTP, we can recover some part of the key by XORing `catland-` and the decoded base64 bytes.
 
-```ipython
+```python3
 In [3]: decoded=base64.b64decode("BwgEKBk4AkRjDAxdIhQ3DRAaEAweKwp7ExlQFggUIQt7DwdEBxsZNAw/CQc=")
 
 In [4]: decoded[:9]
@@ -47,7 +47,7 @@ Now we have recoverd a part of the key. But we cannot use it to decode the whole
 
 #### Finding the length of key
 
-```ipython
+```python3
 In [12]: def decode(key,enc):
     ...:     d=""
     ...:     for i in range(len(enc)):
@@ -67,7 +67,7 @@ We got a partially decrypted text with the key "dipDxVfia". Now we can conclude 
 
 #### Bruteforcing
 
-```ipython
+```python3
 In [15]: import string
 
 In [18]: chars = string.ascii_letters + string.digits
