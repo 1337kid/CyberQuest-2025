@@ -1,4 +1,4 @@
-P## CatLand Solution
+## CatLand Solution
 
 ```
 nc 34.93.135.171 12345
